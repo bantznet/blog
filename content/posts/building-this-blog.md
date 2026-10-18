@@ -3,10 +3,10 @@ title: Building this blog
 date: 2026-10-18
 draft: false
 tags:
-  - meta
-  - home-automation
-  - 3d-printing
+  - blog
+  - homelab
   - motorcycles
+  - 3d-printing
 summary: "Why I started a public blog, and how it's built: Hugo, a custom theme, and GitHub Pages."
 cover: /images/motorcycles-are-the-best.jpg
 ---
