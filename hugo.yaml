@@ -10,7 +10,7 @@ params:
   description: Homelab and infra write-ups
   tagline: Homelab. Infrastructure. Self-hosting.
   github: https://github.com/bantznet
-  # heroImage: images/hero.jpg
+  heroImage: images/hero.jpg
 menu:
   main:
     - {name: About, url: /about/, weight: 10}
