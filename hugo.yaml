@@ -11,7 +11,7 @@ params:
   tagline: Homelab. Infrastructure. Self-hosting.
   author:
     name: Jessie
-    # avatar: images/avatar.jpg
+    avatar: images/avatar.png
   github: https://github.com/bantznet
   heroImage: images/hero.jpg
 menu:
