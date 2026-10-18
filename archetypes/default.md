@@ -1,5 +1,9 @@
 ---
-date: '{{ .Date }}'
+title: "{{ replace .File.ContentBaseName "-" " " | title }}"
+date: {{ .Date }}
 draft: true
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+tags: ["homelab"]   # first tag shows on the card: homelab | home-automation | 3d-printing | motorcycles
+summary: ""         # ~150 chars, used as the card excerpt
+# cover: /images/<slug>.jpg
 ---
+
