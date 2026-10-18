@@ -15,6 +15,7 @@ params:
     name: Jessie
     avatar: images/avatar.png
   goatcounter: jessmarie
+  linkedin: https://www.linkedin.com/in/jessicabantz/
   github: https://github.com/bantznet
   heroImage: images/hero.jpg
 menu:
@@ -24,4 +25,3 @@ menu:
     - {name: Home Automation, url: /tags/home-automation/, weight: 30}
     - {name: 3D Printing, url: /tags/3d-printing/, weight: 40}
     - {name: Motorcycles, url: /tags/motorcycles/, weight: 50}
-    - {name: LinkedIn, url: "https://www.linkedin.com/in/jessicabantz/", weight: 60}
