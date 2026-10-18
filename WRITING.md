@@ -7,3 +7,4 @@ New post: `hugo new posts/my-slug.md` (or copy `archetypes/default.md`). Posts s
 - Always write a `summary` (~150 chars).
 - Images go in `static/images/` (kebab-case, under ~300 KB); reference as `/images/name.jpg`.
 - Fenced code blocks always get a language.
+- Obsidian-style `[[wikilinks]]` and `![[image.png]]` embeds do not render in Hugo. Use standard Markdown: `[text](url)` and `![alt](/images/name.jpg)`.
