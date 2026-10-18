@@ -24,3 +24,4 @@ menu:
     - {name: Home Automation, url: /tags/home-automation/, weight: 30}
     - {name: 3D Printing, url: /tags/3d-printing/, weight: 40}
     - {name: Motorcycles, url: /tags/motorcycles/, weight: 50}
+    - {name: LinkedIn, url: "https://www.linkedin.com/in/jessicabantz/", weight: 60}
