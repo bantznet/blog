@@ -1,0 +1,15 @@
+baseURL: https://bantznet.github.io/blog/
+locale: en-us
+title: Homelab Notes
+theme: PaperMod
+pagination:
+  pagerSize: 10
+params:
+  description: Homelab and infra write-ups
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+menu:
+  main:
+    - {name: Posts, url: /posts/, weight: 10}
+    - {name: Tags, url: /tags/, weight: 20}
