@@ -17,5 +17,6 @@
 <footer class="site-footer"><div class="wrap">© {{ now.Year }} {{ site.Title }}</div></footer>
 {{ $js := resources.Get "js/search.js" | minify | fingerprint }}
 <script src="{{ $js.RelPermalink }}" data-index="{{ "index.json" | relURL }}" defer></script>
+{{ with site.Params.goatcounter }}{{ if not hugo.IsServer }}<script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>{{ end }}{{ end }}
 </body>
 </html>
