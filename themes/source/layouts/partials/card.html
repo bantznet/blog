@@ -1,0 +1,9 @@
+<article class="card">
+  <a class="thumb" href="{{ .RelPermalink }}">{{ with .Params.cover }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ else }}<span class="ph">{{ substr .Title 0 1 }}</span>{{ end }}</a>
+  <div class="body">
+    {{ with .Params.tags }}<a class="tag" href="{{ (urlize (index . 0) | printf "tags/%s/") | relURL }}">{{ index . 0 }}</a>{{ end }}
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Summary | plainify | truncate 150 }}</p>
+    <div class="meta">{{ .Date.Format "02 Jan 2006" }} • {{ .ReadingTime }} min read</div>
+  </div>
+</article>

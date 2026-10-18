@@ -1,0 +1,4 @@
+{{ define "main" }}
+<div class="wrap"><h1 class="list-title">Tags</h1>
+<p class="tags">{{ range .Data.Terms.Alphabetical }}<a class="chip" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <small>{{ .Count }}</small></a> {{ end }}</p></div>
+{{ end }}

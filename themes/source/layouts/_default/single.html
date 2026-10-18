@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="wrap post">
+  {{ with .Params.tags }}<a class="tag" href="{{ (urlize (index . 0) | printf "tags/%s/") | relURL }}">{{ index . 0 }}</a>{{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ if not .Date.IsZero }}<div class="meta">{{ .Date.Format "02 Jan 2006" }} • {{ .ReadingTime }} min read</div>{{ end }}
+  {{ with .Params.cover }}<img class="cover" src="{{ . | relURL }}" alt="">{{ end }}
+  <div class="prose">{{ .Content }}</div>
+</article>
+{{ end }}

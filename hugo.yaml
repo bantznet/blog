@@ -1,15 +1,18 @@
 baseURL: https://bantznet.github.io/blog/
 locale: en-us
 title: Homelab Notes
-theme: PaperMod
+theme: source
 pagination:
   pagerSize: 10
+outputs:
+  home: [HTML, RSS, JSON]
 params:
   description: Homelab and infra write-ups
-  ShowReadingTime: true
-  ShowCodeCopyButtons: true
-  ShowToc: true
+  tagline: Homelab. Infrastructure. Self-hosting.
+  github: https://github.com/bantznet
+  # heroImage: images/hero.jpg
 menu:
   main:
-    - {name: Posts, url: /posts/, weight: 10}
-    - {name: Tags, url: /tags/, weight: 20}
+    - {name: About, url: /about/, weight: 10}
+    - {name: Technical, url: /tags/homelab/, weight: 20}
+    - {name: Archive, url: /posts/, weight: 30}

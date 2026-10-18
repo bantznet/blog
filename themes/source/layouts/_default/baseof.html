@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{ range .AlternativeOutputFormats }}<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}">{{ end }}
+</head>
+<body class="{{ if .IsHome }}home{{ else }}inner{{ end }}">
+{{ partial "header.html" . }}
+<main>{{ block "main" . }}{{ end }}</main>
+<footer class="site-footer"><div class="wrap">© {{ now.Year }} {{ site.Title }}</div></footer>
+{{ $js := resources.Get "js/search.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" data-index="{{ "index.json" | relURL }}" defer></script>
+</body>
+</html>
