@@ -1,0 +1,1 @@
+{{ with site.Params.author.avatar }}<img class="avatar" src="{{ . | relURL }}" alt="">{{ else }}<span class="avatar ini">{{ substr site.Params.author.name 0 1 }}</span>{{ end }}

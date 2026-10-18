@@ -4,6 +4,6 @@
     {{ with .Params.tags }}<a class="tag" href="{{ (urlize (index . 0) | printf "tags/%s/") | relURL }}">{{ index . 0 }}</a>{{ end }}
     <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     <p>{{ .Summary | plainify | truncate 150 }}</p>
-    <div class="meta">{{ .Date.Format "02 Jan 2006" }} • {{ .ReadingTime }} min read</div>
+    <div class="byline">{{ partial "avatar.html" . }}<div><div class="who">{{ site.Params.author.name }}</div><div class="meta">{{ .Date.Format "02 Jan 2006" }} • {{ .ReadingTime }} min read</div></div></div>
   </div>
 </article>

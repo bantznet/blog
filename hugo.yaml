@@ -9,6 +9,9 @@ outputs:
 params:
   description: Homelab and infra write-ups
   tagline: Homelab. Infrastructure. Self-hosting.
+  author:
+    name: Jessie
+    # avatar: images/avatar.jpg
   github: https://github.com/bantznet
   heroImage: images/hero.jpg
 menu:
