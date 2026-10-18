@@ -2,6 +2,8 @@ baseURL: https://blog.bantz.net/
 locale: en-us
 title: "Jessie's Notes"
 theme: source
+ignoreFiles:
+  - "_templates"
 pagination:
   pagerSize: 10
 outputs:
