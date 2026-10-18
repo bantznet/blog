@@ -1,7 +1,8 @@
+@font-face{font-family:"Plus Jakarta Sans";src:url(../fonts/PlusJakartaSans.woff2) format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
 :root{--ink:#15171a;--mute:#738a94;--line:#e6e9eb;--accent:#30a4e8;--bg:#fff;--soft:#f1f3f4;--hover:#f4f6f7;--field:rgba(255,255,255,.93);--quote:#555}
 :root[data-theme=dark]{--ink:#e6e9eb;--mute:#8d9ca5;--line:#2a2f35;--accent:#4db3f0;--bg:#15171a;--soft:#23272c;--hover:#23272c;--field:rgba(30,33,38,.92);--quote:#a5b0b6;color-scheme:dark}
 *{box-sizing:border-box}
-body{margin:0;font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
+body{margin:0;font:16px/1.6 "Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:1200px;margin:0 auto;padding:0 20px}
 .hero{color:#fff;background:linear-gradient(135deg,#2b2433 0%,#5b4a56 35%,#8c6a5a 60%,#3d4a5c 100%) center/cover}
