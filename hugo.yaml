@@ -1,4 +1,4 @@
-baseURL: https://bantznet.github.io/blog/
+baseURL: https://blog.bantz.net/
 locale: en-us
 title: Homelab Notes
 theme: source
