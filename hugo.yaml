@@ -14,7 +14,7 @@ params:
   author:
     name: Jessie
     avatar: images/avatar.png
-  # goatcounter: your-code   # sign up at goatcounter.com, then uncomment and set
+  goatcounter: jessmarie
   github: https://github.com/bantznet
   heroImage: images/hero.jpg
 menu:
