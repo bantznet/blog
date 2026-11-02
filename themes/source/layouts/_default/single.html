@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ if and .Params.cover (not .Params.coverAlt) }}{{ warnf "%s: cover set without coverAlt (add alt text)" .File.Path }}{{ end }}
 <article class="wrap post">
   {{ with .Params.tags }}<a class="tag" href="{{ (urlize (index . 0) | printf "tags/%s/") | relURL }}">{{ index . 0 }}</a>{{ end }}
   <h1>{{ .Title }}</h1>

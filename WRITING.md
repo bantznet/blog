@@ -11,3 +11,13 @@ New post: `hugo new posts/my-slug.md` (or copy `archetypes/default.md`). Posts s
 
 ## Cover images
 Make covers 1600x900 (16:9), JPG or WebP, under ~300 KB. Use birme.net (set 1600x900, adjust crop focus, export). Keep the subject in the middle band: the top of the post crops to a wide strip (~880x320). Save to `static/images/<slug>.jpg`, then set `cover: /images/<slug>.jpg`.
+
+If you set a `cover`, also set `coverAlt`: one sentence describing what's actually in the photo (subject, setting), not "image of". The build prints a warning if it's missing. The same text is used by screen readers.
+
+## Pre-publish checklist
+- [ ] `summary` written (~150 chars; also used for link previews)
+- [ ] First tag is the topic tag
+- [ ] `cover` is 1600x900, under ~300 KB, and `coverAlt` is set
+- [ ] No secrets, internal IPs/hostnames, MACs, plates, addresses, or family details
+- [ ] Code blocks have a language; images use standard Markdown, not `![[wikilinks]]`
+- [ ] `draft: true` removed
