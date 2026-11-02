@@ -1,6 +1,7 @@
 ---
 title: About
 cover: /images/disappointment-valley.jpg
+coverAlt: "A loaded adventure motorcycle parked on an empty desert highway beside a green 'Disappointment Valley' road sign."
 ---
 Hey, I'm Jessie.
 
