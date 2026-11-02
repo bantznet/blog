@@ -9,6 +9,7 @@ tags:
   - 3d-printing
 summary: "Why I started a public blog, and how it's built: Hugo, a custom theme, and GitHub Pages."
 cover: /images/motorcycles-are-the-best.jpg
+coverAlt: "A yellow Suzuki V-Strom adventure motorcycle parked in front of the Moose Visitor Center sign, with snowy mountains behind."
 ---
 
 I've been homelabbing for a long time without writing any of it down. Like, almost anywhere. Now that [I maintain a public repo for a project I really like](https://github.com/bantznet/mos-vm-images), it felt like the right time to have a proper place that says who I am and what else I'm into: homelabbing, home automation, AI, and 3D printing.

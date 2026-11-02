@@ -5,7 +5,7 @@
   {{ range $i, $e := $p.Pages }}
     {{ if and (eq $i 0) (eq $p.PageNumber 1) }}
       <article class="featured">
-        <a class="thumb" href="{{ .RelPermalink }}">{{ with .Params.cover }}<img src="{{ . | relURL }}" alt="">{{ else }}<span class="ph">{{ substr .Title 0 1 }}</span>{{ end }}</a>
+        <a class="thumb" href="{{ .RelPermalink }}">{{ $alt := .Params.coverAlt }}{{ with .Params.cover }}<img src="{{ . | relURL }}" alt="{{ $alt }}">{{ else }}<span class="ph">{{ substr .Title 0 1 }}</span>{{ end }}</a>
         <div class="body">
           <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
           <p>{{ .Summary | plainify | truncate 220 }}</p>
