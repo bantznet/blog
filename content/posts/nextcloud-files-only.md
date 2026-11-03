@@ -74,6 +74,21 @@ docker exec nextcloud occ app:disable calendar
 
 (LinuxServer's image has no `www-data` user; its `occ` wrapper handles running as the right user.)
 
+My full removal in one shot:
+
+```bash
+# Disable the apps we don't need (files-only setup)
+for a in firstrunwizard recommendations survey_client weather_status support nextcloud_announcements \
+         dashboard app_api circles related_resources files_reminders webhook_listeners privacy \
+         logreader office mail calendar contacts contactsinteraction photos activity \
+         user_status files_downloadlimit; do
+  docker exec nextcloud occ app:disable $a
+done
+
+# Check
+docker exec nextcloud occ app:list
+```
+
 What went:
 
 | Group | Apps |
