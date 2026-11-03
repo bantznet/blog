@@ -1,7 +1,7 @@
 ---
 title: "My go-to Nextcloud stack, trimmed down to just files"
 date: 2026-11-03
-draft: true
+draft: false
 cover: /images/nextcloud-files-only.jpg
 coverAlt: "The white Nextcloud logo, three interlocking rings above the word Nextcloud, centered on a blue gradient background."
 tags:
