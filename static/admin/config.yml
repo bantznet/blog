@@ -1,11 +1,10 @@
 # Decap CMS config. Edits Markdown in this repo; pushing to main deploys the site.
+# Sveltia CMS trial. Saves commit to the `sveltia-trial` branch (NOT main), so nothing deploys.
 backend:
   name: github
   repo: bantznet/blog
-  branch: main
-  # base_url: <OAuth proxy URL>   # needed for editing on the live site; not for local_backend
-
-local_backend: true               # `npx decap-server` + `hugo server -D`, then open http://localhost:1313/admin/
+  branch: sveltia-trial
+  auth_methods: [token]   # sign in with a personal access token; no OAuth proxy
 
 media_folder: static/images
 public_folder: /images
@@ -18,7 +17,6 @@ collections:
     extension: md
     format: frontmatter
     slug: "{{slug}}"
-    filter: {field: title, pattern: "^(?!\\{\\{)"}   # hide the Obsidian _templates file
     summary: "{{title}} ({{draft}})"
     fields:
       - {label: Title, name: title, widget: string}
