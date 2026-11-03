@@ -1,9 +1,9 @@
-# Decap CMS config. Edits Markdown in this repo; pushing to main deploys the site.
-# Sveltia CMS trial. Saves commit to the `sveltia-trial` branch (NOT main), so nothing deploys.
+# Sveltia CMS config. Saves commit straight to main, which deploys the site.
+# New posts default to draft: true, so nothing publishes until Draft is turned off.
 backend:
   name: github
   repo: bantznet/blog
-  branch: sveltia-trial
+  branch: main
   auth_methods: [token]   # sign in with a personal access token; no OAuth proxy
 
 media_folder: static/images
