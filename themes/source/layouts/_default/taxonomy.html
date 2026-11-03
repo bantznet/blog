@@ -1,4 +1,11 @@
 {{ define "main" }}
-<div class="wrap"><h1 class="list-title">Tags</h1>
-<p class="tags">{{ range .Data.Terms.Alphabetical }}<a class="chip" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <small>{{ .Count }}</small></a> {{ end }}</p></div>
+<div class="wrap">
+{{ if eq .Kind "term" }}
+  <h1 class="list-title">{{ .Title }}</h1>
+  <div class="grid">{{ range .Pages }}{{ partial "card.html" . }}{{ end }}</div>
+{{ else }}
+  <h1 class="list-title">Tags</h1>
+  <p class="tags">{{ range .Data.Terms.Alphabetical }}<a class="chip" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <small>{{ .Count }}</small></a> {{ end }}</p>
+{{ end }}
+</div>
 {{ end }}
