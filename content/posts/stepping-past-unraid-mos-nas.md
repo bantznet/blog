@@ -18,7 +18,9 @@ I've been a fan of Unraid for several years now - I was even able to buy in to a
 
 So color me excited when I read the [Sept 11, 2026 selfh.st newsletter](https://selfh.st/weekly/2026-09-11/) and saw this little bit:
 
-> ich777, a well known Unraid community developer, announced they're moving on from Unraid (presumably to devote more time to MOS, their new NAS OS for homelabs)
+> ich777, a well known Unraid community developer, announced they're moving on from Unraid (presumably to devote more time to [MOS, their new NAS OS](https://mos-official.net/) for homelabs)
+
+You bet I went to their site immediately: [https://mos-official.net/](https://mos-official.net/)
 
 And then keep coloring inside those lines while I decided to [download their latest release and try this out in a VM](https://docs.mos-official.net/docs/Installation/Create-Bootable-Media) as I don't have spare NAS hardware to try this out on. This is where I started flailing around and couldn't get that image to boot. And I _know_ virtualization, it's been my career for close to 20 years. It shouldn't be a barrier for anyone else, I figured.
 
