@@ -1,7 +1,7 @@
 ---
 title: 'Stepping past Unraid: MOS NAS'
 date: 2026-11-05
-draft: true
+draft: false
 tags:
   - homelab
 summary: MOS manages disks, pools, Docker, LXC and VMs from one web interface. It is based on Devuan, runs without telemetry and is open source.
