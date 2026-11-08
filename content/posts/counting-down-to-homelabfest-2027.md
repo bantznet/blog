@@ -13,7 +13,7 @@ coverAlt: Blue gradient banner with a faint grid and the text "Counting down to 
 
 # Counting down to HomelabFest 2027
 
-I'm going to HomelabFest next September, and I'm already overwhelming myself with projects to half complete before then!
+I'm going to the very first [HomelabFest next September](https://www.homelabfest.org/), and I'm already overwhelming myself with projects to half complete before then!
 
 ## The plan (such as it is)
 
