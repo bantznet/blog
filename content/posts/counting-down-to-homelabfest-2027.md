@@ -1,7 +1,7 @@
 ---
 title: Counting down to HomelabFest 2027
 date: 2026-11-08
-draft: true
+draft: false
 tags:
   - homelab
   - home-automation
