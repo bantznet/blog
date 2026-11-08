@@ -17,7 +17,7 @@
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32.png" | relURL }}">
 <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
-<link rel="preload" href="{{ "fonts/PlusJakartaSans.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "fonts/Geist.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 {{ range .AlternativeOutputFormats }}<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}">{{ end }}
