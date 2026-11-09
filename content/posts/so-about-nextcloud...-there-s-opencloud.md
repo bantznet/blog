@@ -1,5 +1,5 @@
 ---
-title: So about Nextcloud... there's OpenCloud
+title: So about Nextcloud... there's OpenCloud now
 date: 2026-11-09
 draft: true
 tags:
