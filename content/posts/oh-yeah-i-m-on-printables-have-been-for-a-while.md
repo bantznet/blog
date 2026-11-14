@@ -1,7 +1,7 @@
 ---
 title: Oh yeah - I'm on Printables, have been for a while :-)
 date: 2026-11-14
-draft: true
+draft: false
 tags:
   - 3d-printing
   - homelab
