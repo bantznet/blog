@@ -21,6 +21,6 @@ In what I can only think is a wonderful anathema to enshittification, _released 
 >
 > Two weeks on, it was the #1 trending repository on GitHub for the week of 19–25 October, with over 46K stars and 5.7K forks, and 1.4M views and 260K clones in 14 days. By 14 November it had 57K stars and 7.4K forks. The lists now cover 481 TV models from 131 brands. The coverage: 546 articles from 57 countries and 674 videos on YouTube and Bilibili, all in [docs/PRESS.md](https://github.com/Gathin23/cleanyourtv/blob/main/docs/PRESS.md) (numbers as of 14 November 2026).
 
-I've since found another project, [Couch TV](https://github.com/Seagey/couch-tv), that I feel tries to take owning what your TV runs and does for you a little further - I tried both, and have settled on what I see as the more simple, CleanYourTV.
+I've since found another project, [Couch TV](https://github.com/Seagey/couch-tv), that I feel tries to take owning what your TV runs and does for you a little further - I tried both, and have settled on what I see as the more simple, reliable CleanYourTV.
 
 What a time to be ~~so incredibly reliant on AI~~ alive :-)
